@@ -1,6 +1,6 @@
 import sys
 
-def shiftEncryption(input, output, key):
+def shiftE(input, output, key):
     f = open(input, "r")
     s = f.read()
     s2 = ""
@@ -17,7 +17,7 @@ def shiftEncryption(input, output, key):
         o.write(s2)
         o.close()
 
-def shiftDecryption(input, output, key):
+def shiftD(input, output, key):
     f = open(input, "r")
     s = f.read()
     s2 = ""
@@ -34,7 +34,7 @@ def shiftDecryption(input, output, key):
         o.write(s2)
         o.close()
 
-def affineEncryption(input, output, a, b):
+def affineE(input, output, a, b):
     f = open(input, "r")
     s = f.read()
     s2 = ""
@@ -52,7 +52,7 @@ def affineEncryption(input, output, a, b):
         o.write(s2)
         o.close()
 
-def affineDecryption(input, output, a, b):
+def affineD(input, output, a, b):
     f = open(input, "r")
     s = f.read()
     s2 = ""
@@ -74,7 +74,7 @@ def affineDecryption(input, output, a, b):
         o.write(s2)
         o.close()
 
-def vigenereEncryption(input, output, key):
+def vigenereE(input, output, key):
     f = open(input, "r")
     s = f.read()
     s2 = ""
@@ -96,7 +96,7 @@ def vigenereEncryption(input, output, key):
         o.write(s2)
         o.close()
 
-def vigenereDecryption(input, output, key):
+def vigenereD(input, output, key):
     f = open(input, "r")
     s = f.read()
     s2 = ""
