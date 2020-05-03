@@ -34,7 +34,7 @@ After applying the Affine cipher on the plaintext **ABCDEFGHIJKLMNOPQRSTUVWXYZZZ
 > - Calculate **E ( x ) = ( a x + b ) mod m** <br/>
 
 ####  **Decryption** <br/>
-After applying the Affine cipher on the plaintext **INSXCHMRWBGLQVAFKPUZEJOTYDDDDII** gave us ciphertext **ABCDEFGHIJKLMNOPQRSTUVWXYZZZZAA**  <br/>
+After applying the Affine cipher on the ciphertext **INSXCHMRWBGLQVAFKPUZEJOTYDDDDII** gave us plaintext  **ABCDEFGHIJKLMNOPQRSTUVWXYZZZZAA**  <br/>
 > we perform the opposite (or inverse) functions on the ciphertext to retrieve the plaintext. <br/>
 > - convert each of the ciphertext letters into their integer values. 
 > - Use the decryption function **D ( x ) = a^-1 ( x - b ) mod m** <br/>
@@ -51,7 +51,7 @@ After applying the Affine cipher on the plaintext **ABCDEFGHIJKLMNOPQRSTUVWXYZZZ
 > - use the keyword letter and the plaintext letter as the row index and column index, respectively, and the entry at the row-column intersection is the letter in the ciphertext <r/>
 
 ####  **Decryption** <br/>
-After applying the Affine cipher on the plaintext **CSASXNOJZHZEUVQGOGLBCXNVNSHHBRY** gave us ciphertext **ABCDEFGHIJKLMNOPQRSTUVWXYZZZZAA** 
+After applying the Affine cipher on the ciphertext  **CSASXNOJZHZEUVQGOGLBCXNVNSHHBRY** gave us plaintext **ABCDEFGHIJKLMNOPQRSTUVWXYZZZZAA** 
 > - pick a letter in the ciphertext and its corresponding letter in the keyword
 > - use the keyword letter to find the corresponding row, and the letter that contains the ciphertext letter is the needed plaintext letter. <br/>
 
