@@ -2,8 +2,8 @@
 callable from the command line.
 
 > Examples calls from terminal: <br/>
- ◦ solution.py affine dec input.text output.text a b <br/>
- ◦ solution.py shift enc input.text output.text a <br/>
+ ◦ solution.py affine dec input.txt output.txt a b <br/>
+ ◦ solution.py shift enc input.txt output.txt a <br/>
  
 ### 1. Shift cipher :
 #### **Encryption** <br/>
