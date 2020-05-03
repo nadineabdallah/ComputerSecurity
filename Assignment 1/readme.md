@@ -1,4 +1,4 @@
-> An encryption - decryption program  using shift , affine and vigenere ciphers
+> An encryption - decryption program  using shift, affine and vigenere ciphers ..
 callable from the command line.
 
 > Examples calls from terminal: <br/>
