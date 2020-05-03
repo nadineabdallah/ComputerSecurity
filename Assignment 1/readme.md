@@ -29,12 +29,12 @@ After decrypting the Shift Cipher with same key K , we deciphers the ciphertext 
 
 ### 2. Affine cipher :
 ####  **Encryption** <br/>
-After applying the Affine cipher on the plaintext **ABCDEFGHIJKLMNOPQRSTUVWXYZZZZAA** gave us ciphertext **INSXCHMRWBGLQVAFKPUZEJOTYDDDDII** <br/>
+After applying the Affine cipher , the plaintext **ABCDEFGHIJKLMNOPQRSTUVWXYZZZZAA** gave us ciphertext **INSXCHMRWBGLQVAFKPUZEJOTYDDDDII** <br/>
 > - Using modular arithmetic to transform the integer that each plaintext letter corresponds to into another integer that correspond to a ciphertext letter. 
 > - Calculate **E ( x ) = ( a x + b ) mod m** <br/>
 
 ####  **Decryption** <br/>
-After applying the Affine cipher on the ciphertext **INSXCHMRWBGLQVAFKPUZEJOTYDDDDII** gave us plaintext  **ABCDEFGHIJKLMNOPQRSTUVWXYZZZZAA**  <br/>
+After applying the Affine cipher , the ciphertext **INSXCHMRWBGLQVAFKPUZEJOTYDDDDII** gave us plaintext  **ABCDEFGHIJKLMNOPQRSTUVWXYZZZZAA**  <br/>
 > we perform the opposite (or inverse) functions on the ciphertext to retrieve the plaintext. <br/>
 > - convert each of the ciphertext letters into their integer values. 
 > - Use the decryption function **D ( x ) = a^-1 ( x - b ) mod m** <br/>
@@ -46,12 +46,12 @@ After applying the Affine cipher on the ciphertext **INSXCHMRWBGLQVAFKPUZEJOTYDD
 It is a text encrypt/decrypt technique that uses a table of size 26x26 having the first row and first column , containing letters from A to Z and then each row has the letters shifted to the left one position. 
 
 ####  **Encryption** <br/>
-After applying the Affine cipher on the plaintext **ABCDEFGHIJKLMNOPQRSTUVWXYZZZZAA** gave us ciphertext **CSASXNOJZHZEUVQGOGLBCXNVNSHHBRY**
+After applying the Affine cipher , the plaintext **ABCDEFGHIJKLMNOPQRSTUVWXYZZZZAA** gave us ciphertext **CSASXNOJZHZEUVQGOGLBCXNVNSHHBRY**
 > - pick a letter in the plaintext and its corresponding letter in the keyword
 > - use the keyword letter and the plaintext letter as the row index and column index, respectively, and the entry at the row-column intersection is the letter in the ciphertext <r/>
 
 ####  **Decryption** <br/>
-After applying the Affine cipher on the ciphertext  **CSASXNOJZHZEUVQGOGLBCXNVNSHHBRY** gave us plaintext **ABCDEFGHIJKLMNOPQRSTUVWXYZZZZAA** 
+After applying the Affine cipher , the ciphertext  **CSASXNOJZHZEUVQGOGLBCXNVNSHHBRY** gave us plaintext **ABCDEFGHIJKLMNOPQRSTUVWXYZZZZAA** 
 > - pick a letter in the ciphertext and its corresponding letter in the keyword
 > - use the keyword letter to find the corresponding row, and the letter that contains the ciphertext letter is the needed plaintext letter. <br/>
 
